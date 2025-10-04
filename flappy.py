@@ -3,7 +3,7 @@ from pygame.locals import *
 
 #VARIABLES
 SCREEN_WIDHT = 400
-SCREEN_HEIGHT = 600
+SCREEN_HEIGHT = 480
 SPEED = 20
 GRAVITY = 2.5
 GAME_SPEED = 15
@@ -219,4 +219,5 @@ while True:
         pygame.mixer.music.play()
         time.sleep(1)
         break
+
 
